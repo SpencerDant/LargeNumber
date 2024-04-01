@@ -236,6 +236,16 @@ public class LargeNumber implements Comparable<LargeNumber> {
 	
 	// Team 5
 	public void divide(LargeNumber other) {
+		 // Create the objects for LargeNumber
+        LargeNumber numerator = new LargeNumber(20);
+        LargeNumber divisor = new LargeNumber(4);
+
+        // Perform the division operation
+        LargeNumber quotient = numerator.divide(divisor);
+
+        // Print the operation and the result
+        System.out.println("Dividing " + numerator + " by " + divisor);
+        System.out.println("Quotient: " + quotient);
 	}
 	
 	// Team 7
